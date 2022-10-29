@@ -111,6 +111,9 @@ header ul li a:hover{
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
+.dsgvo{
+    text-align: center;
+}
 .technical{
     width: 80%;
     margin: auto;
