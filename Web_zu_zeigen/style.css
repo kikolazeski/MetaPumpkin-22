@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    min-height: 10000px;
+    background-image: url(images/eduford_img/banner.png);
+    display: flex;
+    padding: 30px 100px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 0px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+header ul li a:hover{
+    background: #fff;
+    color: black;
+    transition: 1s;
+}
+.text{
+    width: 90%;
+    color: black;
+    position: absolute;
+}
+.text-box{
+/*    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;*/
+    color: black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 450px;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: black;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;    
+    border-radius: 20px;
+}
+.hero-btn:hover{
+    background: #fff;
+    color: black;
+    transition: 1s;
+}
+.security{
+    color: black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 550px;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: rgb(161, 206, 226);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.technical{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.row2{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.orga{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.app-shots{
+    color: black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.app1{
+    width: 300px;
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.app1:hover{
+    box-shadow: 0 0 30px 0px rgba(0,0,0,0.2);
+}
+
+.future{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.row3{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.economy{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.row4{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
