@@ -1,0 +1,3 @@
+[submodule "backend-fitXchange"]
+	path = backend-fitXchange
+	url = https://github.com/gogamid/backend-fitXchange
