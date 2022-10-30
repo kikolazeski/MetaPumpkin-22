@@ -1,3 +1,6 @@
 [submodule "backend-fitXchange"]
 	path = backend-fitXchange
 	url = https://github.com/gogamid/backend-fitXchange
+[submodule "frontend-fitXchange"]
+	path = frontend-fitXchange
+	url = https://github.com/Cybarose/frontend-fitXchange
