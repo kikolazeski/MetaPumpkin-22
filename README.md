@@ -2,8 +2,13 @@
 
 [FrontEnd (iOS App, Android App, Webseite)](https://github.com/Cybarose/frontend-fitXchange/tree/main) \
 [BackEnd (NodeJs Express, MySQL)](https://github.com/gogamid/backend-fitXchange/tree/main) \
-[Konzept Webseite](https://)
+[Konzept Webseite](https://metapumpkin22.neocities.org/index.html)
 
+# Running
+## Frontend
+Android Studio/VS Code with Flutter/Dart/Emulator
+## Backend
+VS Code/MySQLWorkbench with Firebase
 
 ## Use Cases/Features/Requirements
 1. Partner vereine können Kurse anbieten mit Voraussetzungen (Hart - Schwimmkurs Vorhanden / Soft - Fitnes level selbsteinschätzung)
