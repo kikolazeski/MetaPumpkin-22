@@ -1,4 +1,11 @@
 # MetaPumpkin-22
+
+[FrontEnd (iOS App, Android App, Webseite)](https://github.com/Cybarose/frontend-fitXchange/tree/main) \
+[BackEnd (NodeJs Express, MySQL)](https://github.com/gogamid/backend-fitXchange/tree/main) \
+[Konzept Webseite](https://)
+
+
+## Use Cases/Features/Requirements
 1. Partner vereine können Kurse anbieten mit Voraussetzungen (Hart - Schwimmkurs Vorhanden / Soft - Fitnes level selbsteinschätzung)
 2. Nutzter können die angebotene Kurse buchen
 3. Nutzter haben Accounts mit Voraussetzungen
@@ -34,7 +41,7 @@
 34. Partner nachweisen, der von uns validiert wird (ie es gibt Angebote falls man irgendwo arbeitet)
 35. 
 
-Entitäten:
+## Entitäten:
     1. User
     2. Kurse (User hat Kurse)
     3. Termin (Kurse haben Termine)
