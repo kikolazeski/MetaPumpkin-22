@@ -6,136 +6,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitExchange</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo"><img src="images/eduford_img/logo.png"></a>
+        <a href="index.html" class="logo"><img src="images/logo/logo_horizonal2.png" height="52px"></a>
             <ul>
-                <li><a href="" class="active">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">COURSE</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="about.html">ÜBER UNS</a></li> <!-- team; Martkpotenzial -->
+                <li><a href="sicherheit.html">SICHERHEIT</a></li>
+				<li><a href="technik.html">TECHNISCHES</a></li>
             </ul>
 
     </header>
-    <div class="text">
-        <div class="text-box">
-            
-            <h1>FitExchange</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolore delectus maxime labore necessitatibus, temporibus est eius laboriosam <br>
-                voluptates vel provident minima quasi perferendis possimus, consectetur atque a? Asperiores, aliquam.</p>
-            <a href="" class="hero-btn">ERFAHRE MEHR</a>
-        </div>
-        <div class="security">
-            <h2>App Sicherheit</h2>
-            <p>Die App basiert auf einer Basis des Datenaustausches. Der Datenaustausch erfolgt zwischen dem Nutzer und der App, sowie zwischen der App und dem 
-                Sportverein (Hochschulsport, VHS usw.). Aufgrund dieses Vorganges, müssen ausgetauschte Daten DSGVO konform sein und ausreichend Sicherheit vorweise,
-                 damit sensible Nutzerdaten nicht in die Öffentlichkeit gelangen können. Aus der Architektur und auf Basis der Sicherheitsanalyse wurde es festgestellt, 
-                 dass Vertraulichkeit, Integrität, Verfügbarkeit und Autorisierung unabdingbar ist. Dazu folgen entsprechende Sicherheitsmaßnahmen:</p>
-            <div class="row"> 
-                <div class="course-col">
-                    <h3>SHA-256</h3>
-                    <p>Der Aufbau von der App erfolgt anhand von Nutzter Konten. Jeder Nutzter muss ein eigenes Konto anlegen, mit dem dieser sich anmelden soll. 
-                        Die Passwörter werden nicht im Backend im Klartext gespeichert, sondern mittels dem neuesten SHA-256 hash Verfahren. Damit werden nur Passwort 
-                        hashes verglichen und nicht Klartext-Passwörter. Somit kann, falls die Kommunikation abgefangen werden sollte, der Angreifer mit den Hashes nichts 
-                        anfangen. Hiermit wird auch die Autorisierung der Daten gewährleistet.</p>
-                </div>
-                <div class="course-col">
-                    <h3>TLS</h3>
-                    <p>Der Kommunikationsfluss muss mit aktuellsten Sicherheitsmechanismen abgesichert werden. Für die App wurde die Sprache “flutter” benutzt. 
-                        Diese bietet auch eine eigene Bibliothek mit der Möglichkeit der  Implementierung von TLS(Transport Layer Security) 1.2. Im Fall vom 
-                        fitXchange muss diese auch genutzt werden, damit die Daten über einen sicheren TLS Kanal zwischen zwei Endpunkten fließen. Somit 
-                        gewärleistet TLS die Authentizität, Integrität und Vertraulichkeit der Daten.</p>
-                </div>
-                <div class="course-col">
-                    <h3>Verfügbarkeit</h3>
-                    <p>Damit die App auch zu jedem Zeitpunkt sicher verfügbar ist, muss die Architektur redundant ausgestellt werden. Falls ein Server ausfällt, 
-                        kann ein anderer die Aufgaben übernehmen. Mit diesem letzten Schritt wird auch die Verfügbarkeit gewährleistet. </p>
-                </div>
-            </div>
-        </div>
-        <div class="dsgvo">
-        <h2>DSGVO</h2>
-                <p>Die App “fitXchange” wird sicherheitskonform gemäß der DSGVO Daten übermitteln. Es werden keine weiteren Daten von Nutzern (außer Email und Passwort) 
-                    in der Datenbank gespeichert. Diese Daten werden noch dazu mittels SHA-256 gehasht. Der Nutzer von unserer App muss somit die DSGVO Voraussetzungen 
-                    annehmen. Diese werden bei dem Datenaustausch und/oder auch bei der Datenspeicherung in Zukunft durchgesetzt.</p>
-        </div>
+	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
+   <source src="https://storage.googleapis.com/metapumkin/fxc.webm" type="video/webm"> 
+Video not supported </video>
 
-        <section class="app-shots">
-            <h2>Benutzerfreundlichkeit</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis rem natus blanditiis consequatur, consectetur cupiditate assumenda <br>
-            dolor officiis in hic repellat magni doloribus, ipsa reiciendis autem repudiandae. Impedit, amet?</p>
+<div id="video_pattern"></div>
+	<div class="content">
+		<div class="text">
+			<div class="text-box">
+			</div>
+			<div class="first1">
+			
+				<h2 class="course-col">Eine innovative Austauschbörse für Sportkursangebote direkt aus der Region</h2>
 
-            <div class="row">
-                <div class="campus-col">
-                    <img src="images/eduford_img/phone-app.jpg" class="app1">
-                </div>
-                <div class="campus-col">
-                    <img src="images/eduford_img/phone-app.jpg" class="app1">
-                </div>
-                <div class="campus-col">
-                    <img src="images/eduford_img/phone-app.jpg" class="app1">
-                </div>
-            </div>
-        </section>
+				<div class="row">
+				    <a class="course-col download android">
+				  <i class="fa fa fa-android fa-5x"></i>
+				  <span class="df">Get from</span>
+				  <span class="dfn">Google Play</span>
+				</a>
+				<a class="course-col download apple">
+				  <i class="fa fa fa-apple fa-5x"></i>
+				  <span class="df">Get from</span>
+				  <span class="dfn">App Store</span>
+				</a>
+				<a class="course-col download windows">
+				  <i class="fa fa fa-windows fa-5x"></i>
+				  <span class="df">Get for</span>
+				  <span class="dfn">Web Browser</span>
+				</a>
+				<br>
+				</div>
+				
+				</div></div>
+				<div style="background-color: #5d7d9c">
+				<div class="text">
+				<h2 class="textWhite">Deine Vorteile:</h2>
+				<div class="row2">
+					<img class="course-col" src="images/phone2.webp" style="max-height: 580px;">
+					<div class="course-col">
+					
+					<h2  class="textWhite" style="height: 250px; margin-top: 30px;">Mitglied werden</h2>
+					<h2 class="textWhite" style="height: 250px; margin-top: 30px;">Teile deine Welt des Sport</h2>
+						
+					</div>
+					<div class="course-col">
+					
+					<h2  class="textWhite" style="height: 250px; margin-top: 30px;">Profitiere von kostenlosen Sporteinheiten</h2>
+					<h2  class="textWhite" style="height: 250px; margin-top: 30px;">Profitiere von tollen Prämien </h2>
+						
+					</div>
+					
 
+				</div>
+				</div>
+				</div>
+				
+				
+	
+				<div class="text">
+				<h2>Unsere Partner:</h2>
+				<div class="row2">
+					 <a href="https://www.hs-fulda.de/unsere-hochschule/a-z-alle-institutionen/hochschulsport/" target="_blank" class="course-col"><img src="images/hsfulda.jpg" style="max-width: 300px;" class="app1"></a>
+					  <a href="https://www.vhs-fulda.de/gesundheit/" target="_blank" class="course-col" ><img src="images/vhs.jpg" style="max-width: 300px;" class="app1"> </a>
+				    
+					
+					
+					
 
-        <div class="technical">
-            <h2>Technische Rahmenbedingungen</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis rem natus blanditiis consequatur, consectetur cupiditate assumenda <br>
-            dolor officiis in hic repellat magni doloribus, ipsa reiciendis autem repudiandae. Impedit, amet?</p>
-            <div class="row2">
-                <div class="course-col">
-                    <h3>OpenVHS</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit magnam tenetur, optio voluptatibus totam, inventore quia corrupti <br>
-                        cupiditate asperiores odio repudiandae animi sed non sint eaque iusto maiores quas.</p>
-                </div>
-                <div class="course-col">
-                    <h3>AGB</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit magnam tenetur, optio voluptatibus totam, inventore quia corrupti <br>
-                        cupiditate asperiores odio repudiandae animi sed non sint eaque iusto maiores quas.</p>
-                </div>
-            </div>
-        </div>
+				</div>
+				</div>
 
-        <div class="future">
-        <h2>Weiterentwicklung</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis rem natus blanditiis consequatur, consectetur cupiditate assumenda <br>
-            dolor officiis in hic repellat magni doloribus, ipsa reiciendis autem repudiandae. Impedit, amet?</p>
-            <div class="row3">
-                <div class="course-col">
-                    <h3>AGB</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit magnam tenetur, optio voluptatibus totam, inventore quia corrupti <br>
-                        cupiditate asperiores odio repudiandae animi sed non sint eaque iusto maiores quas.</p>
-                </div>
-                <div class="campus-col">
-                    <img src="images/eduford_img/phone-app.jpg" class="app1">
-                </div>
-            </div>
-        </div>
-        
+				
+				<div class="backLimeGreen">
+				<div class="text">
+				<h2 class="textWhite">Das sagen unsere Nutzer:</h2>
+				<div class="row2">
+					 <img src="images/studentin.jpg" style="max-width: 400px;" class="course-col profile">
+					 <div class="course-col">
+					<h2 class="textWhite">Emilia, Studentin:</h2>
+						<p class="textWhite">"Die Bedienung ist super intuitiv, es was noch nie einfacher, Kurstage spontan abzusagen oder dazu zu buchen ohne ein schlechtes Gewissen. Ich weiß ja, dass ich, wenn ich nicht kann, jemandem etwas Gutes tue."</p>
+					</div>
+				    
+					
+					
+					
 
-        <div class="economy">
-            <h2>Geschäftsmodell</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis rem natus blanditiis consequatur, consectetur cupiditate assumenda <br>
-            dolor officiis in hic repellat magni doloribus, ipsa reiciendis autem repudiandae. Impedit, amet?</p>
-            <div class="row4">
-                <div class="campus-col">
-                    <img src="images/eduford_img/phone-app.jpg" class="app1">
-                </div>
-                <div class="course-col">
-                    <h3>AGB</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit magnam tenetur, optio voluptatibus totam, inventore quia corrupti <br>
-                        cupiditate asperiores odio repudiandae animi sed non sint eaque iusto maiores quas.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+				</div>
+				<div class="row2">
+					 
+					 <div class="course-col">
+					<h2 class="textWhite">Matthias, Fitness Coach:</h2>
+						<p class="textWhite">"Eine tolle Initiative! Meine Kurse haben mehr Teilnehmer und das Check-In Verfahren ist einfach zu bedienen. Es macht auch Spaß, mal als Teilnehmer woanders rein zu schnuppern."</p>
+					</div>
+					<img src="images/trainer.jpg" style="max-width: 400px;" class="course-col profile">
+				    
+					
+					
+					
 
+				</div>
+				</div>
+				</div>
+				
+
+			<div class="text">
+				<h2 class="course-col">Eine innovative Austauschbörse für Sportkursangebote direkt aus der Region</h2>
+				
+				<div class="row">
+				    <a class="course-col download android">
+				  <i class="fa fa fa-android fa-5x"></i>
+				  <span class="df">Get from</span>
+				  <span class="dfn">Google Play</span>
+				</a>
+				<a class="course-col download apple">
+				  <i class="fa fa fa-apple fa-5x"></i>
+				  <span class="df">Get from</span>
+				  <span class="dfn">App Store</span>
+				</a>
+				<a class="course-col download windows">
+				  <i class="fa fa fa-windows fa-5x"></i>
+				  <span class="df">Get for</span>
+				  <span class="dfn">Web Browser</span>
+				</a>
+				<br>
+				</div>
+				
+				<p class="course-col">Im Auftrag der Hochschule Fulda und der Volkshochschule Fulda</p>
+				
+				</div>
+	</div>
 
 </body>
 </html>

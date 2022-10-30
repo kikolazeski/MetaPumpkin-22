@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitExchange</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/logo/logo_horizonal2.png" height="52px"></a>
+            <ul>
+                <li><a href="index.html" >HOME</a></li>
+                <li><a href="about.html">ÜBER UNS</a></li> <!-- team; Martkpotenzial -->
+                <li><a href="sicherheit.html" class="active">SICHERHEIT</a></li>
+				<li><a href="technik.html">TECHNISCHES</a></li>
+            </ul>
+
+    </header>
+	<div class="content imgsecurity">
+		<div class="text">
+			<div class="text-box">
+				
+				<h1>Sicherheit</h1>
+
+			</div>
+			<div class="first2">
+			<div class="course-col">
+				<h2>App Sicherheit</h2>
+				<p>Die App basiert auf einer Basis des Datenaustausches. Der Datenaustausch erfolgt zwischen dem Nutzer und der App, sowie zwischen der App und dem 
+					Sportverein (Hochschulsport, VHS usw.). Aufgrund dieses Vorganges, müssen ausgetauschte Daten DSGVO konform sein und ausreichend Sicherheit vorweise,
+					 damit sensible Nutzerdaten nicht in die Öffentlichkeit gelangen können. Aus der Architektur und auf Basis der Sicherheitsanalyse wurde es festgestellt, 
+					 dass Vertraulichkeit, Integrität, Verfügbarkeit und Autorisierung unabdingbar ist. Dazu folgen entsprechende Sicherheitsmaßnahmen:</p>
+				</div>
+		</div>
+		</div>
+		<div class="backGlacous">
+		<div class="text">
+				<div class="row"> 
+					<div class="course-col">
+						<h2>SHA-256</h2>
+						<p>Der Aufbau von der App erfolgt anhand von Nutzter Konten. Jeder Nutzter muss ein eigenes Konto anlegen, mit dem dieser sich anmelden soll. 
+							Die Passwörter werden nicht im Backend im Klartext gespeichert, sondern mittels dem neuesten SHA-256 hash Verfahren. Damit werden nur Passwort 
+							hashes verglichen und nicht Klartext-Passwörter. Somit kann, falls die Kommunikation abgefangen werden sollte, der Angreifer mit den Hashes nichts 
+							anfangen. Hiermit wird auch die Autorisierung der Daten gewährleistet.</p>
+					</div>
+					<div class="course-col">
+						<h2>TLS</h2>
+						<p>Der Kommunikationsfluss muss mit aktuellsten Sicherheitsmechanismen abgesichert werden. Für die App wurde die Sprache “flutter” benutzt. 
+							Diese bietet auch eine eigene Bibliothek mit der Möglichkeit der  Implementierung von TLS(Transport Layer Security) 1.2. Im Fall vom 
+							fitXchange muss diese auch genutzt werden, damit die Daten über einen sicheren TLS Kanal zwischen zwei Endpunkten fließen. Somit 
+							gewärleistet TLS die Authentizität, Integrität und Vertraulichkeit der Daten.</p>
+					</div>
+					<div class="course-col">
+						<h2>Verfügbarkeit</h2>
+						<p>Damit die App auch zu jedem Zeitpunkt sicher verfügbar ist, muss die Architektur redundant ausgestellt werden. Falls ein Server ausfällt, 
+							kann ein anderer die Aufgaben übernehmen. Mit diesem letzten Schritt wird auch die Verfügbarkeit gewährleistet. </p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="text">
+			<div class="dsgvo">
+			<div class="course-col">
+			<h2>DSGVO</h2>
+					<p>Die App “fitXchange” wird sicherheitskonform gemäß der DSGVO Daten übermitteln. Es werden keine weiteren Daten von Nutzern (außer Email und Passwort) 
+						in der Datenbank gespeichert. Diese Daten werden noch dazu mittels SHA-256 gehasht. Der Nutzer von unserer App muss somit die DSGVO Voraussetzungen 
+						annehmen. Diese werden bei dem Datenaustausch und/oder auch bei der Datenspeicherung in Zukunft durchgesetzt.</p>
+						</div>	
+			</div>		
+</div>	
+		</div>
+	</div>
+
+</body>
+</html>

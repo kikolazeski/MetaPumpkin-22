@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitExchange</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/logo/logo_horizonal2.png" height="52px"></a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ÜBER UNS</a></li> <!-- team; Martkpotenzial -->
+                <li><a href="sicherheit.html">SICHERHEIT</a></li>
+				<li><a href="technik.html" class="active">TECHNISCHES</a></li>
+            </ul>
+
+    </header>
+	<div class="content imgtechnik">
+		<div class="text">
+			<div class="text-box">
+				
+				<h1>TECHNISCHES</h1>
+
+			</div>
+			<div class="first2">
+			<div class="course-col">
+				<h2>App Dokumentation und Sourcecode</h2>
+				<p>Unser SourceCode und die komplette Dokumentation unseres Prototyps ist vollständig auf GitHub einsehbar.</p>
+				</div>
+				</div>
+				</div>
+				<div class="text">
+				<div class="row">
+				<a class="course-col download github" style="margin: 20px auto;" href="https://github.com/kikolazeski/MetaPumpkin-22/tree/main" target="_blank" >
+				  <i class="fa fa fa-github fa-5x"></i>
+				  <span class="df">Show Branch</span>
+				  <span class="dfn">On GitHub</span>
+				</a>
+				<a class="course-col download canva" style="margin: 20px auto;" href="https://www.canva.com/design/DAFQbT9E4eg/Y_JmEqrjZLdzpJtk2Bks3g/view?utm_content=DAFQbT9E4eg&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent" target="_blank" >
+				  <i class="fa fa fa-gift fa-5x"></i>
+				  <span class="df">Show Elevator Pitch</span>
+				  <span class="dfn">On Canva</span>
+				</a>
+				<a class="course-col download canva" style="margin: 20px auto;" href="https://www.canva.com/design/DAFQgHctO1I/QgTzc6RA_YyAJCAETITjJA/view?utm_content=DAFQgHctO1I&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent" target="_blank" >
+				  <i class="fa fa fa-sticky-note fa-5x"></i>
+				  <span class="df">Show Brand Konzept</span>
+				  <span class="dfn">On Canva</span>
+				</a>
+			</div></div>
+		
+		<div class="backGlacous">
+		<div class="text">
+				<div class="row"> 
+					<div class="course-col">
+						<h2>CrossPlatform</h2>
+						<p>Der Aufbau von der App erfolgt anhand von Nutzter Konten. Jeder Nutzter muss ein eigenes Konto anlegen, mit dem dieser sich anmelden soll. 
+							Die Passwörter werden nicht im Backend im Klartext gespeichert, sondern mittels dem neuesten SHA-256 hash Verfahren. Damit werden nur Passwort 
+							hashes verglichen und nicht Klartext-Passwörter. Somit kann, falls die Kommunikation abgefangen werden sollte, der Angreifer mit den Hashes nichts 
+							anfangen. Hiermit wird auch die Autorisierung der Daten gewährleistet.</p>
+					</div>
+					<div class="course-col">
+						<h2>TLS</h2>
+						<p>Der Kommunikationsfluss muss mit aktuellsten Sicherheitsmechanismen abgesichert werden. Für die App wurde die Sprache “flutter” benutzt. 
+							Diese bietet auch eine eigene Bibliothek mit der Möglichkeit der  Implementierung von TLS(Transport Layer Security) 1.2. Im Fall vom 
+							fitXchange muss diese auch genutzt werden, damit die Daten über einen sicheren TLS Kanal zwischen zwei Endpunkten fließen. Somit 
+							gewärleistet TLS die Authentizität, Integrität und Vertraulichkeit der Daten.</p>
+					</div>
+					<div class="course-col">
+						<h2>Verfügbarkeit</h2>
+						<p>Damit die App auch zu jedem Zeitpunkt sicher verfügbar ist, muss die Architektur redundant ausgestellt werden. Falls ein Server ausfällt, 
+							kann ein anderer die Aufgaben übernehmen. Mit diesem letzten Schritt wird auch die Verfügbarkeit gewährleistet. </p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="text">
+			<div class="dsgvo">
+			<div class="course-col">
+			<h2>Danke an das Team</h2>
+					<p>KIKO - </p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+						</div>	
+			</div>		
+</div>	
+		</div>
+	</div>
+
+</body>
+</html>
